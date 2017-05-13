@@ -1,11 +1,11 @@
-// This script create the icon as per need 
-//Used case is sending the DEBUG build internally to the team where Icon clear says in bold that its debug build 
+# This script create the icon as per need 
+# Used case is sending the DEBUG build internally to the team where Icon clear says in bold that its debug build 
 
-//Prerequsites for this script to work : 
-// Homebrew : https://brew.sh/
-// Homebew package : ImageMagick 
-// To install :  brew install ImageMagick
-//Debug image : 
+# Prerequsites for this script to work : 
+# Homebrew : https://brew.sh/
+# Homebew package : ImageMagick 
+# To install :  brew install ImageMagick
+# Debug image : 
 
 
 echo "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
@@ -31,9 +31,9 @@ function generateIcon () {
     echo $?
 }
 
-//first parametere is the actual image name in your  assets
-// All numbered images 180,76 ... should be replaced to with there actual name inside of your project. 
-// Please remember that they are actual name not name in xcasset file. location these file on the disk to get actual name
+# first param is the actual image name in your  assets
+# All numbered images 180,76 ... should be replaced to with there actual name inside of your project. 
+# Please remember that they are actual name not name in xcasset file. location these file on the disk to get actual name
 
 generateIcon "180.png" "AppIcon60x60@3x.png"
 generateIcon "76.png" "AppIcon76x76~ipad.png"
@@ -49,6 +49,3 @@ generateIcon "40.png" "AppIcon40x40~ipad.png"
 generateIcon "120.png" "AppIcon60x60@2x.png"
 generateIcon "167.png" "AppIcon83.5x83.5@2x~ipad.png"
 
-#AppIcon29x29@2x
-
-#exit 1

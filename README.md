@@ -2,7 +2,7 @@
 This repo contains the helper scripts that I have created along the way while developing for projects for XCode Script phase as add on fucntionality to xcode projects
 
 
-## Dymanic icon : 
+## 1.Dymanic icon : 
 ![org icon](https://raw.githubusercontent.com/MtAden/xcodeSciptPhase/master/dynamicIcon/AI60x60%403x.png) ------>
 ![converted icon](https://raw.githubusercontent.com/MtAden/xcodeSciptPhase/master/dynamicIcon/Converted_AI60x60%403x.png)
 
@@ -10,7 +10,7 @@ This repo contains the helper scripts that I have created along the way while de
 <img src="https://raw.githubusercontent.com/MtAden/xcodeSciptPhase/master/dynamicIcon/debugLabel.png" width="200" height="200" />
 
 
-## Xcode-build-and-version-generator :
+## 2.Xcode-build-and-version-generator :
 ### Disclamer: STILL IN BETA, HAVING SOME MAJOR KNOWN BUG. USE IT ON YOUR RESPONSIBILITY
 
 #### What does it do ?

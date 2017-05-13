@@ -4,8 +4,7 @@ This repo contains the helper script that I have created along the line for XCod
 
 
 ## Dymanic icon : 
-![org icon](https://raw.githubusercontent.com/MtAden/xcodeSciptPhase/master/dynamicIcon/AI60x60%403x.png) 
-   ## To
+![org icon](https://raw.githubusercontent.com/MtAden/xcodeSciptPhase/master/dynamicIcon/AI60x60%403x.png) ------>
 ![converted icon](https://raw.githubusercontent.com/MtAden/xcodeSciptPhase/master/dynamicIcon/Converted_AI60x60%403x.png)
 
 ### Debug label is 800x800 (can be found in the same folder as script)

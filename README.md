@@ -11,5 +11,4 @@ This repo contains the helper script that I have created along the line for XCod
 ![converted icon](https://raw.githubusercontent.com/MtAden/xcodeSciptPhase/master/dynamicIcon/Converted_AI60x60%403x.png)
 
 ### Debug label is 800x800 (can be found in the same folder as script)
-![debugLabel](https://raw.githubusercontent.com/MtAden/xcodeSciptPhase/master/dynamicIcon/debugLabel.png){:height="200px" width="200px"}.
-
+<img src="https://raw.githubusercontent.com/MtAden/xcodeSciptPhase/master/dynamicIcon/debugLabel.png" width="200" height="200" />

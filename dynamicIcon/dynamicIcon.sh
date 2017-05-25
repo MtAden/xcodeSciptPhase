@@ -10,9 +10,11 @@
 
 echo "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 echo "${SRCROOT}"
+versionNumber=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" "${PROJECT_DIR}/${INFOPLIST_FILE}")
 buildNumber=$(/usr/libexec/PlistBuddy -c "Print CFBundleVersion" "${PROJECT_DIR}/${INFOPLIST_FILE}")
+buildNumber="$versionNumber($buildNumber)"
 
-##Icons for app. Theese are app icons that you need to e replaced with you icons name on disk. 
+##Icons for app. Theese are app icons that you need to e replaced with you icons name on disk.
 ICON60_3x="180.png"
 ICON29_2x="58.png"
 ICON29_3x="87.png"
